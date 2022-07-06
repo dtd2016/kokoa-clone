@@ -1,1 +1,3 @@
 # Kokoa Clone
+
+Taking kokoa clone course....
