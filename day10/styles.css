@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+body {
+  font-family: "Bakbak One", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mint-border {
+  width: 440px;
+  height: 960px;
+  border: 5px solid #00c6ad;
+  padding: 20px 30px;
+}
+
+.playlist-header {
+  padding: 30px 10px;
+  display: flex;
+}
+
+.playlist-header div {
+  width: 33%;
+}
+
+.playlist-header div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist-header div h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.playing {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.playing__cover {
+  width: 160px;
+  height: 160px;
+  background-color: #ffbd11;
+  border: 2px solid black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playing__info {
+  width: 200px;
+  height: 160px;
+  margin: 0px 30px;
+}
+
+.playing__info h1 {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.playing__info h2 {
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+.buttons {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.buttons div {
+  height: 80px;
+  background-color: white;
+  border-width: 2px 3px 6px 3px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons__play {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.buttons__play h1 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buttons__like {
+  width: 80px;
+  margin: 0px 30px;
+  border-radius: 50%;
+}
+
+.buttons__plus {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.list li {
+  display: flex;
+  padding: 25px 0px;
+}
+
+.list li:nth-child(1) div:first-child {
+  background-color: #f85a2a;
+}
+
+.list li:nth-child(2) div:first-child {
+  background-color: #ff89bb;
+}
+
+.list li:nth-child(3) div:first-child {
+  background-color: #1947e5;
+}
+
+.list li:nth-child(4) div:first-child {
+  background-color: #00c6ad;
+}
+
+.list li div:first-child {
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+.list li div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list li div:last-child h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 15px;
+}
+
+.list li div:last-child h2 {
+  font-size: 15px;
+  margin: 10px 15px;
+}

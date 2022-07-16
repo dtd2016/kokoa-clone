@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <section>
+        <label for="first-name">First name</label>
+        <input id="first-name" type="text" placeholder="First name" required />
+      </section>
+
+      <section>
+        <label for="last-name">Last name</label>
+        <input id="last-name" type="text" placeholder="Last name" required />
+      </section>
+
+      <section>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Email" required />
+      </section>
+
+      <section>
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Username" required />
+      </section>
+
+      <section>
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Password"
+          minlength="10"
+          required
+        />
+      </section>
+
+      <section>
+        <label for="birth-date">Birth date</label>
+        <input id="birth-date" type="date" required />
+      </section>
+
+      <section>
+        <label for="happy">How happy are you?</label>
+        <input
+          id="happy"
+          type="range"
+          min="0"
+          max="10"
+          step="1"
+          list="tickmarks"
+          required
+        />
+
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5"></option>
+          <option value="6"></option>
+          <option value="7"></option>
+          <option value="8"></option>
+          <option value="9"></option>
+          <option value="10"></option>
+        </datalist>
+      </section>
+
+      <section>
+        <label for="color">What is your fav. color?</label>
+        <input id="color" type="color" required />
+      </section>
+
+      <input id="password" type="submit" value="Create Account" required />
+    </form>
+  </body>
+</html>
