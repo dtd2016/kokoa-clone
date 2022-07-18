@@ -17,3 +17,11 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
 }
+
+header {
+  margin-top: var(--top-space);
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
