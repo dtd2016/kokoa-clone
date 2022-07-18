@@ -1,0 +1,138 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 1000vh;
+}
+
+.main-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  font-size: 14px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.message-row {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.message__author {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  background-color: white;
+  font-size: 18px;
+  margin-right: 5px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  padding: 13px;
+}
+
+.message__author,
+.message__time {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.message-row--own {
+  justify-content: end;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  margin-right: 0px;
+  margin-left: 5px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+
+.reply {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  box-sizing: border-box;
+}
+
+.reply__column:first-child {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.reply__column:last-child {
+  width: 90%;
+  padding-right: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.reply__column input {
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.reply__column:last-child button {
+  background-color: var(--yellow);
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 2px;
+  right: 13px;
+}
+
+.reply__column:last-child > i {
+  position: absolute;
+  top: 4px;
+  right: 60px;
+}
+
+.reply i {
+  opacity: 0.5;
+}
+
+.reply_column button i {
+  opacity: 1;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}

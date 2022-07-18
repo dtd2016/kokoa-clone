@@ -37,10 +37,6 @@
   align-items: center;
 }
 
-.open-post:last-child {
-  margin-bottom: 70px;
-}
-
 .open-post__title {
   font-weight: 600;
   margin-bottom: 7px;
